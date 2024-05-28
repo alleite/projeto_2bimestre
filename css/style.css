@@ -1,9 +1,13 @@
 nav{
     background-color: #1c4c96; 
 } 
-img{
-    height: 750px;
-}
 body{
     font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#carrossel_imagens{
+    height: 650px;
+}
+
+#imagens_body{
+    width: 100px;;
 }
