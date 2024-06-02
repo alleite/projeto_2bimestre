@@ -1,5 +1,5 @@
-nav{
-    background-color: #1c4c96; 
+#navbar{
+    background-color:#4399ba;
 } 
 body{
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -7,7 +7,7 @@ body{
 #carrossel_imagens{
     height: 650px;
 }
-
 #imagens_body{
-    width: 100px;;
+    width: 564px;
+    height: 390px;
 }

@@ -12,22 +12,34 @@
 
 <body>
     <!-- Início da navbar -->
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="javascript:void(0)"><img src="img/baleia.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <a class="navbar-brand" href="#"><img src="img/icon.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="navbar-nav me-auto">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tartarugas">Tartarugas Marinha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arraia">Arraia-pintada</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tubarão">Tubarões-baleia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#baleias">Baleias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#agua-viva">Águas-vivas</a>
+                    </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="text" placeholder="Search">
-                    <button class="btn btn-primary" type="button">Search</button>
-                </form>
             </div>
         </div>
     </nav>
+
     <!--fim da nav bar-->
 
 
@@ -86,18 +98,109 @@
     <!-- Fim do título-->
 
     <!-- Começo do texto  -->
-    <div class="container">
+    <div class="container align-items-center">
         <h1 class="display-4 fw-normal text-body-emphasis">Tartarugas Marinhas</h1>
-        <p>
-            As tartarugas marinhas são um grupo diversificado de répteis que habitam os oceanos ao redor do mundo.
-            Existem sete espécies conhecidas: a tartaruga-verde, a tartaruga-de-pente, a tartaruga-de-couro, a
-            tartaruga-oliva, a tartaruga-cabeçuda, a tartaruga-de-kemps e a tartaruga-de-ridley. Cada uma dessas
-            espécies tem características únicas, adaptadas aos seus diferentes ambientes e hábitos de vida. Desde as
-            praias onde fazem seus ninhos até os vastos oceanos onde passam a maior parte de suas vidas, as tartarugas
-            marinhas desempenham papéis importantes nos ecossistemas marinhos, ajudando a controlar as populações de
-            presas e contribuindo para a saúde dos oceanos.
-        </p>
-        <img src="img/t4.jpg"
+        <div id="tartarugas" class="d-flex">
+            <div class="col-lg-6">
+                <p>
+                    As tartarugas marinhas são um grupo diversificado de répteis que habitam os oceanos ao redor do
+                    mundo.
+                    Existem sete espécies conhecidas: a tartaruga-verde, a tartaruga-de-pente, a tartaruga-de-couro, a
+                    tartaruga-oliva, a tartaruga-cabeçuda, a tartaruga-de-kemps e a tartaruga-de-ridley. Cada uma dessas
+                    espécies tem características únicas, adaptadas aos seus diferentes ambientes e hábitos de vida.
+                    Desde as
+                    praias onde fazem seus ninhos até os vastos oceanos onde passam a maior parte de suas vidas, as
+                    tartarugas
+                    marinhas desempenham papéis importantes nos ecossistemas marinhos, ajudando a controlar as
+                    populações de
+                    presas e contribuindo para a saúde dos oceanos.
+                </p>
+            </div>
+            <div>
+                <img src="img/t4.jpg" class="img-fluid" id="imagens_body">
+            </div>
+        </div>
+        <h1 class="display-4 fw-normal text-body-emphasis">Arraia-pintada</h1>
+        <div id="arraia" class="d-flex">
+            <div class="col-lg-6">
+                <p>
+                    A Aetobatus narinari, também conhecida como Arraia-pintada, são criaturas majestosas dos oceanos
+                    tropicais e subtropicais, reconhecidas por suas enormes asas e padrões distintivos. Essas criaturas
+                    graciosas podem crescer até cinco metros de envergadura e são frequentemente avistadas planando
+                    elegantemente nas águas costeiras enquanto se alimentam de plâncton. Apesar de sua aparência
+                    imponente,
+                    as arraias pintadas são inofensivas para os humanos e desempenham um papel importante na ecologia
+                    marinha como predadores de plâncton, contribuindo assim para o equilíbrio dos ecossistemas
+                    oceânicos. No
+                    entanto, elas enfrentam ameaças significativas devido à pesca incidental, poluição e degradação do
+                    habitat, destacando a necessidade urgente de medidas de conservação para proteger essas espécies
+                    icônicas.
+                </p>
+            </div>
+            <div>
+                <img src="img/r3.png" id="imagens_body">
+            </div>
+        </div>
+        <h1 class="display-4 fw-normal text-body-emphasis">Tubarões-baleia</h1>
+        <div id="tubarão" class="d-flex">
+            <div class="col-lg-6">
+            <p>
+                Os tubarões-baleia são os maiores peixes do mundo, conhecidos por sua imponente presença e marcantes
+                padrões de manchas. Habituais das águas tropicais e subtropicais, esses gigantes marinhos podem chegar a
+                impressionantes comprimentos de mais de 12 metros. Apesar de sua grandeza, são criaturas dóceis,
+                alimentando-se principalmente de plâncton e pequenos peixes, filtrando-os através de suas enormes bocas.
+                Como predadores oportunistas, os tubarões-baleia desempenham um papel crucial na manutenção do
+                equilíbrio dos ecossistemas marinhos, ajudando a controlar as populações de suas presas. No entanto,
+                enfrentam ameaças crescentes devido à pesca incidental, colisões com embarcações e poluição, ressaltando
+                a importância de esforços de conservação para garantir sua sobrevivência e preservar a biodiversidade
+                dos oceanos.
+            </p></div>
+            <div>
+                <img src="img/t2.png" id="imagens_body">
+            </div>
+            
+        </div>
+        <h1 class="display-4 fw-normal text-body-emphasis">Baleias</h1>
+        <div id="baleias" class="d-flex">
+            <div class="col-lg-6">
+            <p>
+                As baleias são os maiores mamíferos do planeta, caracterizadas por seus corpos gigantescos, inteligência
+                impressionante e comportamento social complexo. Estes magníficos cetáceos habitam os oceanos de todo o
+                mundo, variando desde as águas polares até os trópicos. Existem muitas espécies de baleias, incluindo a
+                baleia-azul, que é a maior criatura conhecida a habitar a Terra. As baleias são conhecidas por suas
+                migrações épicas, viajando milhares de quilômetros entre áreas de alimentação e áreas de reprodução.
+                Elas se alimentam principalmente de krill, pequenos peixes e lulas, utilizando técnicas de caça
+                especializadas, como o "alimentação em bolha" das baleias jubarte. Infelizmente, as baleias enfrentam
+                ameaças significativas devido à caça comercial, colisões com embarcações, poluição e mudanças
+                climáticas. Esforços de conservação, como a proibição internacional da caça comercial de baleias e a
+                criação de áreas marinhas protegidas, são cruciais para proteger esses magníficos animais e garantir sua
+                sobrevivência no futuro.
+            </p></div>
+            <div>
+            <img src="img/b2.jpg" id="imagens_body">
+            </div>
+        </div>
+        <h1 class="display-4 fw-normal text-body-emphasis">Águas-vivas</h1>
+        <div id="agua-viva" class="d-flex">
+            <div class="col-lg-6">
+            <p>
+                As águas-vivas são criaturas marinhas fascinantes pertencentes ao grupo dos cnidários, que inclui também
+                os corais e as anêmonas. Elas são conhecidas por seus corpos gelatinosos e tentáculos cheios de células
+                urticantes, chamadas cnidócitos, que utilizam para capturar presas e se proteger de predadores. As
+                águas-vivas habitam oceanos de todo o mundo, desde as águas polares até as tropicais, e são
+                frequentemente encontradas em grandes cardumes chamados de "floradas". Embora muitas espécies de
+                águas-vivas sejam inofensivas para os humanos, algumas, como a água-viva-australiana, podem causar
+                queimaduras dolorosas com suas picadas venenosas. As águas-vivas desempenham um papel importante nos
+                ecossistemas marinhos, servindo como alimento para várias espécies de peixes e tartarugas. No entanto,
+                algumas mudanças ambientais, como o aumento da temperatura da água e a poluição, têm contribuído para o
+                aumento das floradas de águas-vivas em algumas áreas, o que pode afetar negativamente a vida marinha e
+                até mesmo a atividade humana em regiões costeiras.
+
+            </p></div>
+            <div>
+            <img src="img/j2.jpg" id="imagens_body">
+        </div>
+        </div>
     </div>
     <!-- Fim do Texto -->
 
@@ -117,57 +220,13 @@
 
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
 
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-
-                    </ul>
-
-                </div>
-
-
-
-                <div class="col-6 col-md-2 mb-3">
-
-                    <h5>Section</h5>
-
-                    <ul class="nav flex-column">
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+                        </li>
 
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
 
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-
-                    </ul>
-
-                </div>
-
-
-
-                <div class="col-6 col-md-2 mb-3">
-
-                    <h5>Section</h5>
-
-                    <ul class="nav flex-column">
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                        </li>
 
                     </ul>
 
